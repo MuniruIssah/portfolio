@@ -29,7 +29,7 @@ import lightwork from '../assets/lightwork.png';
 
 
 import './pages.css';
-import { GithubOutlined, FacebookFilled, CheckOutlined, CloseOutlined, TwitterOutlined, DatabaseOutlined, InstagramOutlined, MobileOutlined, DesktopOutlined, ToolOutlined, } from '@ant-design/icons'
+import { GithubOutlined, FacebookFilled, LinkedinOutlined,CheckOutlined, CloseOutlined, TwitterOutlined, DatabaseOutlined, InstagramOutlined, MobileOutlined, DesktopOutlined, ToolOutlined, } from '@ant-design/icons'
 
 
 
@@ -188,6 +188,7 @@ const Home = () => {
                         <GithubOutlined style={{ fontSize: 30, color: 'darkgray' }} onClick={() => { window.open('https://github.com/MuniruIssah') }} />
                         <FacebookFilled style={{ fontSize: 30, color: 'darkgray' }} onClick={() => { window.open('https://web.facebook.com/profile.php?id=100007943596320') }} />
                         <TwitterOutlined style={{ fontSize: 30, color: 'darkgray' }} onClick={() => { window.open('https://twitter.com/ningen_dewa_nai') }} />
+                       <LinkedinOutlined style={{ fontSize: 30, color: 'darkgray' }} onClick={() => { window.open('https://www.linkedin.com/in/issah-muniru-b3715a206/') }}/>
                         <InstagramOutlined style={{ fontSize: 30, color: 'darkgray' }} onClick={() => { window.open('https://www.instagram.com/eeeeeeeee_sar/') }} />
                     </div>
                 </Col>
